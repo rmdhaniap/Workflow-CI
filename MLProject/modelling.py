@@ -18,7 +18,7 @@ mlflow.set_experiment("Diabetes Classification")
 mlflow.sklearn.autolog()
 
 # Load dataset hasil preprocessing
-data = pd.read_csv("../preprocessing/preprocessing/diabetes_preprocessing.csv")
+data = pd.read_csv("../MLProject/diabetes_preprocessing.csv")
 
 # Pisahkan fitur dan target
 X = data.drop("Outcome", axis=1)
