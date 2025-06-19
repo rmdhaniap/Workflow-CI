@@ -9,7 +9,7 @@ import os
 import joblib
 
 # Atur URI tracking ke local MLflow server (pastikan mlflow ui sedang aktif di 127.0.0.1:5000)
-mlflow.set_tracking_uri("http://127.0.0.1:5000/")
+#mlflow.set_tracking_uri("http://127.0.0.1:5000/")
 
 # Buat atau gunakan experiment yang sudah ada
 mlflow.set_experiment("Diabetes Classification")
